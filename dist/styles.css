@@ -6,6 +6,7 @@ body {
 }
 
 .header {
+    height: 10em;
     /* background-color: purple; */
     margin-block-start: 0;
     /* display: flex; */
@@ -70,7 +71,7 @@ body {
 
 .menu {
     display: flex;
-    position: absolute;
+    position: relative;
     /* top: 25%; */
     flex-wrap: wrap;
     justify-content: center;
@@ -92,3 +93,57 @@ body {
     margin-left: 1.5em;
     height: 400px;
 }
+
+.contact {
+    /* margin-inline-start: 4em; */
+    transition: all .3s ease-in-out;
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+    /* margin-left: 0; */
+    box-sizing: border-box;
+    justify-items: center;
+    align-items: center;
+    /* width: 55%; */
+    background: rgb(165, 34, 34);
+    background-size: 17%;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-inline-start: 3rem;
+}
+
+.contact-items {
+    display: flex;
+    /* margin-block-start: -4em; */
+    margin-inline-start: -6rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-items li {
+    /* display: flex; */
+    list-style: none;
+    padding: .2rem 2rem;
+}
+
+
+/* .contact-items li a {
+    color: white;
+    text-decoration: none;
+    margin: -52px
+} */
+
+.contact-item i {
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+/* .contact-item {
+    padding: 10px 0 2px 1px;
+} */
