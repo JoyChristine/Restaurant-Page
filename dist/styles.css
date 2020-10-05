@@ -43,8 +43,8 @@ body {
     font-size: calc(2vw + .1em);
 }
 
-.sections-list li a:hover {
-    color: purple;
+.sections-list__item:hover {
+    text-decoration: underline;
 }
 
 .home {
@@ -73,10 +73,15 @@ body {
     z-index: -1;
 }
 
+.home video {
+    margin-top: -93px;
+    margin-inline-start: 14em;
+    ;
+}
+
 .menu {
     display: flex;
     position: relative;
-    /* top: 25%; */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -97,7 +102,7 @@ body {
     background-image: url(img/delish-oreo-truffles-078-1544222424.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 0.2;
     top: 0;
     left: 0;
     bottom: 0;
