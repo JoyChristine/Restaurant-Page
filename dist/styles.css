@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #A6DCEF;
     font-family: 'Caveat', cursive;
+    cursor: pointer;
 }
 
 .header {
@@ -74,14 +75,13 @@ body {
 }
 
 .home video {
-    margin-top: -93px;
+    margin-top: 3px;
     margin-inline-start: 14em;
-    ;
 }
 
 .menu {
     display: flex;
-    position: relative;
+    position: absolute;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -102,8 +102,8 @@ body {
     background-image: url(img/delish-oreo-truffles-078-1544222424.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.2;
-    top: 0;
+    opacity: 0.3;
+    top: -10px;
     left: 0;
     bottom: 0;
     right: 0;
@@ -128,21 +128,38 @@ body {
     justify-items: center;
     align-items: center;
     /* width: 55%; */
-    background: BLACK;
+    /* background: BLACK; */
     background-size: 17%;
 }
 
+.contact::after {
+    content: "";
+    background-image: url(img/delish-oreo-truffles-078-1544222424.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90em;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
 .contact h2 {
-    color: white;
+    color: black;
     font-size: 22px;
     text-transform: uppercase;
-    margin-inline-start: 3rem;
+    margin-inline-start: 0rem;
 }
 
 .contact-items {
     display: flex;
     /* margin-block-start: -4em; */
-    margin-inline-start: -6rem;
+    float: left;
+    left: 0;
+    margin-inline-start: -4rem;
     flex-direction: row;
     justify-content: center;
 }
@@ -161,10 +178,15 @@ body {
 } */
 
 .contact-item i {
-    color: #fff;
+    color: black;
     font-size: 2em;
     cursor: pointer;
 }
+
+
+/* .contact h3 {
+    color: ;
+} */
 
 
 /* .contact-item {
