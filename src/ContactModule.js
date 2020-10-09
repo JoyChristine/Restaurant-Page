@@ -3,6 +3,7 @@ const contact = function() {
     mainSection.classList.add('main-section');
     mainSection.innerHTML = `<div class="contact">
     <h2>Contact Us</h2>
+    <h3> Call us on 123-456-789 or Write to us via our email:chocolatelyhse@gmail.com</h3>
     <ul class="contact-items">
         <li class="contact-item">
 
