@@ -37,4 +37,4 @@ const swapContent = function(event) {
 };
 
 header.addEventListener('click', swapContent);
-header.querySelector('.sections-link[data-content="home"]').click();
+header.querySelector('.sections-link[data-content="home"]').click();;
