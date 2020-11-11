@@ -26,6 +26,7 @@ const contact = function() {
     </ul>
 </div>
 `;
+    np
     document.body.append(mainSection);
 };
 export { contact };
