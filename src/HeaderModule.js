@@ -8,7 +8,8 @@ const navbar = (function() {
         <li class="sections-list__item"><a href="#"  class="sections_link" data-content="home">Home</a></li>
         <li class="sections-list__item"><a href="#"  class="sections_link" data-content="menu">Menu</a></li>
         <li class="sections-list__item"><a href="#"  class="sections_link" data-content="contact">Contact</a></li>
-    </ul>`;
+    </ul>`
+
     content.append(header);
 
 })();
