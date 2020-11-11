@@ -6,7 +6,6 @@ import { contact } from './ContactModule.js';
 
 
 const header = document.querySelector('header');
-
 const swapContent = function(event) {
     const newSectionLink = event.target.closest('a');
     const mainSection = document.querySelector('.main-section');
@@ -24,8 +23,6 @@ const swapContent = function(event) {
     if (mainSection) {
         mainSection.remove();
     }
-
-
     if (newSectionLink.dataset.content === 'home') {
         home();
     } else if (newSectionLink.dataset.content === 'menu') {
