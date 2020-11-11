@@ -24,9 +24,7 @@ const contact = function() {
             </a>
         </li>
     </ul>
-</div>
-`;
-    np
+</div>`;
     document.body.append(mainSection);
 };
 export { contact };
