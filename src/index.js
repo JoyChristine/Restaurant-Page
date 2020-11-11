@@ -15,9 +15,10 @@ const swapContent = function(event) {
     const highlight = function(element) {
         const previousHighlight = header.querySelector('.sections_link');
         if (previousHighlight) {
-            previousHighlight.classList.remove('sections_link');
+            previousHighlight.classlist.remove('sections_link');
+
         }
-        element.classList.add('sections_link');
+        element.classlist.add('sections_link');
     };
 
     if (mainSection) {
@@ -31,7 +32,7 @@ const swapContent = function(event) {
         contact();
     }
     highlight(newSectionLink);
-};
 
+};
 header.addEventListener('click', swapContent);
-header.querySelector('.sections-link[data-content="home"]').click();;
+header.querySelector('.sections_link[data-content="home"]').click();
